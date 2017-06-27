@@ -1,0 +1,198 @@
+
+<!-- saved from url=(0038)https://physionet.org/physiotools/wag/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>WFDB Applications Guide</title>
+<meta name="description" content="WFDB Applications Guide">
+<meta name="keywords" content="wag">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="global">
+<style type="text/css">:root #content > #right > .dose > .dosesingle,
+:root #content > #center > .dose > .dosesingle
+{display:none !important;}</style></head>
+<body bgcolor="#FFFF80">
+<br> <p>
+<b>Next:</b> <a href="https://physionet.org/physiotools/wag/intro.htm">Introduction</a>
+<b>Up:</b> <a href="https://physionet.org/physiotools/manuals.shtml">Books about PhysioToolkit</a>
+</p><h1 align="CENTER">WFDB Applications Guide</h1>
+<p align="CENTER"><strong>Tenth Edition<br>
+(Revised for release 10.5.24)<br>
+28 May 2015<br>
+<br> 
+<br> 
+<br> 
+George B. Moody<br> 
+Harvard-MIT Division of Health Sciences and Technology</strong></p><p>
+</p><p>
+Copyright ©1980-2014 George B. Moody
+</p><p>
+The most recent versions of the programs described in this guide may be freely
+downloaded from <a href="http://www.physionet.org/">PhysioNet</a>.  For
+further information, write to:
+</p><p>
+</p><blockquote>George B. Moody<br> 
+MIT Room E25-505A<br> 
+Cambridge, MA 02139<br> 
+USA<br> 
+</blockquote>
+<p>
+A <a href="https://physionet.org/physiotools/wag/wag.pdf">PDF</a> version of this guide is available.
+The latest version can be downloaded from
+<a href="http://physionet.org/">PhysioNet</a>.
+</p><p>
+Permission is granted to make and distribute verbatim copies of this
+guide provided that the copyright notice and this permission notice are
+preserved on all copies.
+</p><p>
+Permission is granted to copy and distribute modified versions of this
+guide under the conditions for verbatim copying, provided also that the
+entire resulting derived work is distributed under the terms of a
+permission notice identical to this one.
+</p><p>
+Permission is granted to copy and distribute translations of this guide
+into another language, under the above conditions for modified versions.
+</p><p>
+<br> </p><hr>
+<h2>Contents</h2>
+<a href="https://physionet.org/physiotools/wag/intro.htm"><h3>Introduction</h3></a>
+<a href="https://physionet.org/physiotools/wag/faq.htm"><h3>FAQ</h3></a>
+<h3>Applications</h3>
+<ul> 
+<li> <a href="https://physionet.org/physiotools/wag/a2m-1.htm">a2m, ad2m, ahaconvert, ahaecg2mit, m2a, md2a</a>: converting between AHA DB and WFDB formats
+</li><li> <a href="https://physionet.org/physiotools/wag/ann2rr-1.htm">ann2rr, rr2ann</a>: convert annotation files to interval lists and vice versa
+</li><li> <a href="https://physionet.org/physiotools/wag/bxb-1.htm">bxb</a>: ANSI/AAMI-standard beat-by-beat annotation comparator
+</li><li> <a href="https://physionet.org/physiotools/wag/calsig-1.htm">calsig</a>: calibrate signals of a WFDB record
+</li><li> <a href="https://physionet.org/physiotools/wag/cohere-1.htm">coherence</a>: estimate coherence and cross-spectrum of two time series
+</li><li> <a href="https://physionet.org/physiotools/wag/dfa-1.htm">dfa</a>: detrended fluctuation analysis
+</li><li> <a href="https://physionet.org/physiotools/wag/ecgeva-1.htm">ecgeval</a>: generate and run ECG analyzer evaluation script
+</li><li> <a href="https://physionet.org/physiotools/wag/ecgpuw-1.htm">ecgpuwave</a>: QRS detector and waveform limit locator
+</li><li> <a href="https://physionet.org/physiotools/wag/edf2mi-1.htm">edf2mit, mit2edf</a>: convert between EDF and WFDB-compatible formats
+</li><li> <a href="https://physionet.org/physiotools/wag/edr-1.htm">edr</a>: derive a respiration signal from an ECG
+</li><li> <a href="https://physionet.org/physiotools/wag/epicmp-1.htm">epicmp</a>: ANSI/AAMI-standard episode-by-episode annotation comparator
+</li><li> <a href="https://physionet.org/physiotools/wag/fft-1.htm">fft</a>: fast Fourier transform
+</li><li> <a href="https://physionet.org/physiotools/wag/fir-1.htm">fir</a>: general-purpose FIR filter for WFDB records
+</li><li> <a href="https://physionet.org/physiotools/wag/gqfuse-1.htm">gqfuse</a>: combine QRS annotation files
+</li><li> <a href="https://physionet.org/physiotools/wag/gqrs-1.htm">gqrs, gqpost</a>: QRS detector and post-processor
+</li><li> <a href="https://physionet.org/physiotools/wag/hrfft-1.htm">hrfft, hrlomb, hrmem</a>: calculate and plot heart rate power spectra
+</li><li> <a href="https://physionet.org/physiotools/wag/hrstat-1.htm">hrstats</a>: collect and summarize heart rate statistics from an annotation file
+</li><li> <a href="https://physionet.org/physiotools/wag/ihr-1.htm">ihr</a>: calculate instantaneous heart rate
+</li><li> <a href="https://physionet.org/physiotools/wag/imagep-1.htm">imageplt</a>: plot a greyscale image
+</li><li> <a href="https://physionet.org/physiotools/wag/log10-1.htm">log10</a>: calculate common logarithms of two-column data
+</li><li> <a href="https://physionet.org/physiotools/wag/lomb-1.htm">lomb</a>: estimate power spectrum using the Lomb periodogram method
+</li><li> <a href="https://physionet.org/physiotools/wag/lwcat-1.htm">lwcat</a>: postprocess output of plt to make PostScript, EPS, PDF or PNG
+</li><li> <a href="https://physionet.org/physiotools/wag/memse-1.htm">memse</a>: estimate power spectrum using maximum entropy (all poles) method
+</li><li> <a href="https://physionet.org/physiotools/wag/mfilt-1.htm">mfilt</a>: general-purpose median filter for WFDB records
+</li><li> <a href="https://physionet.org/physiotools/wag/mrgann-1.htm">mrgann</a>: merge annotation files
+</li><li> <a href="https://physionet.org/physiotools/wag/mxm-1.htm">mxm</a>: ANSI/AAMI-standard measurement-by-measurement annotation comparator
+</li><li> <a href="https://physionet.org/physiotools/wag/nguess-1.htm">nguess</a>: guess the times of missing normal beats in an annotation file
+</li><li> <a href="https://physionet.org/physiotools/wag/nst-1.htm">nst</a>: noise stress test for ECG analysis programs
+</li><li> <a href="https://physionet.org/physiotools/wag/parses-1.htm">parsescp</a>: parse SCP-ECG, optionally save in PhysioBank-compatible format
+</li><li> <a href="https://physionet.org/physiotools/wag/plot2d-1.htm">plot2d, plot3d</a>: make 2-D or 3-D plots from text files of data, using <b>gnuplot</b>
+</li><li> <a href="https://physionet.org/physiotools/wag/plotst-1.htm">plotstm</a>: produce scatter plot of ST measurement errors on a PostScript device
+</li><li> <a href="https://physionet.org/physiotools/wag/plt-1.htm">plt</a>: make 2-D plots
+</li><li> <a href="https://physionet.org/physiotools/wag/pltf-1.htm">pltf</a>: make function plots
+</li><li> <a href="https://physionet.org/physiotools/wag/pnnlis-1.htm">pnnlist, pNNx</a>: derive pNNx statistics from an annotation interval list or an annotation file
+</li><li> <a href="https://physionet.org/physiotools/wag/pnwlog-1.htm">pnwlogin</a>: provide direct access to PhysioNetWorks for WFDB applications
+</li><li> <a href="https://physionet.org/physiotools/wag/pschar-1.htm">pschart</a>: produce annotated `chart recordings' on a PostScript device
+</li><li> <a href="https://physionet.org/physiotools/wag/psfd-1.htm">psfd</a>: produce annotated `full-disclosure' plots on a PostScript device
+</li><li> <a href="https://physionet.org/physiotools/wag/rdann-1.htm">rdann</a>: read a WFDB annotation file
+</li><li> <a href="https://physionet.org/physiotools/wag/rdedfa-1.htm">rdedfann</a>: extract annotations from an EDF+ file
+</li><li> <a href="https://physionet.org/physiotools/wag/rdsamp-1.htm">rdsamp</a>: read WFDB signal files
+</li><li> <a href="https://physionet.org/physiotools/wag/rxr-1.htm">rxr</a>: ANSI/AAMI-standard run-by-run annotation comparator
+</li><li> <a href="https://physionet.org/physiotools/wag/sampfr-1.htm">sampfreq</a>: show sampling frequency for a record
+</li><li> <a href="https://physionet.org/physiotools/wag/setwfd-1.htm">setwfdb, cshsetwfdb</a>: set WFDB environment variables
+</li><li> <a href="https://physionet.org/physiotools/wag/sigamp-1.htm">sigamp</a>: measure signal amplitudes of a WFDB record
+</li><li> <a href="https://physionet.org/physiotools/wag/sigavg-1.htm">sigavg</a>: calculate averages of annotated waveforms
+</li><li> <a href="https://physionet.org/physiotools/wag/signam-1.htm">signame</a>: print names of signals of a WFDB record
+</li><li> <a href="https://physionet.org/physiotools/wag/signum-1.htm">signum</a>: print signal numbers of a WFDB record having specified names
+</li><li> <a href="https://physionet.org/physiotools/wag/skewed-1.htm">skewedit</a>: edit skew fields of header file(s)
+</li><li> <a href="https://physionet.org/physiotools/wag/snip-1.htm">snip</a>: copy an excerpt of a WFDB record
+</li><li> <a href="https://physionet.org/physiotools/wag/sortan-1.htm">sortann</a>: rearrange annotations in canonical order
+</li><li> <a href="https://physionet.org/physiotools/wag/sqrs-1.htm">sqrs, sqrs125</a>: single-channel QRS detector
+</li><li> <a href="https://physionet.org/physiotools/wag/stepde-1.htm">stepdet</a>: single-channel step change detector
+</li><li> <a href="https://physionet.org/physiotools/wag/sumann-1.htm">sumann</a>: summarize the contents of a WFDB annotation file
+</li><li> <a href="https://physionet.org/physiotools/wag/sumsta-1.htm">sumstats</a>: derive aggregate statistics from bxb, rxr, etc., line-format output
+</li><li> <a href="https://physionet.org/physiotools/wag/tach-1.htm">tach</a>: heart rate tachometer
+</li><li> <a href="https://physionet.org/physiotools/wag/time2s-1.htm">time2sec</a>: convert WFDB standard time format into seconds
+</li><li> <a href="https://physionet.org/physiotools/wag/wabp-1.htm">wabp</a>: arterial blood pressure (ABP) pulse detector
+</li><li> <a href="https://physionet.org/physiotools/wag/wav2mi-1.htm">wav2mit, mit2wav</a>: convert between .wav and WFDB-compatible formats
+</li><li> <a href="https://physionet.org/physiotools/wag/wave-1.htm">wave</a>: waveform analyzer, viewer, and editor
+</li><li> <a href="https://physionet.org/physiotools/wag/wfdb-c-1.htm">wfdb-config</a>: print WFDB library version and configuration info
+</li><li> <a href="https://physionet.org/physiotools/wag/wfdb2m-1.htm">wfdb2mat</a>: convert WFDB-compatible signal file to Matlab .mat file
+</li><li> <a href="https://physionet.org/physiotools/wag/wfdbca-1.htm">wfdbcat</a>: copy WFDB files to standard output
+</li><li> <a href="https://physionet.org/physiotools/wag/wfdbco-1.htm">wfdbcollate</a>: collate WFDB records into a multi-segment record
+</li><li> <a href="https://physionet.org/physiotools/wag/wfdbde-1.htm">wfdbdesc</a>: read signal specifications
+</li><li> <a href="https://physionet.org/physiotools/wag/wfdbma-1.htm">wfdbmap</a>: make a synoptic map of a WFDB record
+</li><li> <a href="https://physionet.org/physiotools/wag/wfdbti-1.htm">wfdbtime</a>: convert time to sample number, elapsed, and absolute time
+</li><li> <a href="https://physionet.org/physiotools/wag/wfdbwh-1.htm">wfdbwhich</a>: find a WFDB file and print its pathname
+</li><li> <a href="https://physionet.org/physiotools/wag/wqrs-1.htm">wqrs</a>: single-channel QRS detector based on length transform
+</li><li> <a href="https://physionet.org/physiotools/wag/wrann-1.htm">wrann</a>: write a WFDB annotation file
+</li><li> <a href="https://physionet.org/physiotools/wag/wrsamp-1.htm">wrsamp</a>: write WFDB signal files
+</li><li> <a href="https://physionet.org/physiotools/wag/xform-1.htm">xform</a>: sampling frequency, amplitude, and format conversion for WFDB records
+</li></ul>
+<h3>WFDB libraries</h3>
+<ul> 
+<li> <a href="https://physionet.org/physiotools/wag/wfdb-3.htm">wfdb</a>: Waveform Database library
+</li><li> <a href="https://physionet.org/physiotools/wag/wfdbf-3.htm">wfdbf</a>: Waveform Database library wrappers for Fortran
+</li></ul>
+<h3>WFDB file formats</h3>
+<ul> 
+<li> <a href="https://physionet.org/physiotools/wag/annot-5.htm">annot</a>: WFDB annotation file formats
+</li><li> <a href="https://physionet.org/physiotools/wag/header-5.htm">header</a>: WFDB header file format
+</li><li> <a href="https://physionet.org/physiotools/wag/signal-5.htm">signal</a>: WFDB signal file formats
+</li><li> <a href="https://physionet.org/physiotools/wag/wfdbca-5.htm">wfdbcal</a>: WFDB calibration file format
+</li></ul>
+<h3>Miscellaneous</h3>
+<ul> 
+<li> <a href="https://physionet.org/physiotools/wag/xview-7.htm">xview</a>: xview toolkit information
+</li></ul>
+<h3>Appendices</h3>
+<ul>
+<li><i><a href="https://physionet.org/physiotools/wag/install.htm">Installing the WFDB Software Package</a></i>
+</li><li><i><a href="https://physionet.org/physiotools/wag/eval.htm">Evaluating ECG Analyzers</a></i>
+</li></ul>
+<br><hr>
+<h2>Other links of interest</h2>
+<ul>
+<li><a href="http://physionet.org/">PhysioNet</a><br>
+PhysioNet offers free access via the web to large collections of
+recorded physiologic signals and related open-source software.
+The PhysioNet web site is a public service of the 
+<a href="http://physionet.org/resource.shtml">PhysioNet Resource</a>
+funded by the <a href="https://www.nih.gov/" target="other">National
+Institutes of Health</a>'s <a href="https://www.nibib.nih.gov/" target="other">NIBIB</a> and <a href="http://www.nigms.nih.gov/" target="other">NIGMS</a>.
+The most recent version of this guide, and of the software it
+describes, may be obtained from PhysioNet.
+</li><li><i><a href="https://physionet.org/physiotools/wpg/wpg.htm">WFDB Programmer's Guide</a></i>
+<br>
+Includes tutorial and reference material relating to the WFDB library,
+a portable set of functions (subroutines) for reading and writing files in the
+formats supported by the applications described here.  The WFDB library may be
+used with C, C++, or Fortran programs;  the guide primarily describes the C
+interface.
+</li><li><i><a href="https://physionet.org/physiotools/wug/wug.htm">WAVE User's Guide</a></i><br>
+A comprehensive tutorial, with extensive reference material, for
+<strong>WAVE</strong>, an interactive waveform browser with facilities for
+annotation editing and control of external analysis programs.
+<strong>WAVE</strong> runs on PCs under the free GNU/Linux and FreeBSD
+operating systems, and under MS-Windows with Cygwin/X, as well as on Mac OS X
+and on SPARC-based systems under SunOS or Solaris.
+</li></ul>
+<br>
+
+<hr>
+
+<p>If you would like help understanding the content of this page or downloading data/software, please see our <a href="https://physionet.org/faq.shtml">Frequently Asked Questions</a>.
+</p>
+
+<p style="padding-top: .8em;">If you have any comments, feedback, or particular questions regarding this page or our website, please send them to the  <a href="https://physionet.org/contact-us.shtml" target="_blank">webmaster</a>.
+</p>
+
+
+
+Updated 
+
+28 May 2015
+<font>
+
+
+</font></body></html>

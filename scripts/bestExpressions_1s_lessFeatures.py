@@ -1,0 +1,36 @@
+from math import *
+
+def func_0(v0,v1,v2,v3): return  ( v2 - ( ( ( ( v0 - v2 ) +abs( v2 )) /sin(exp( v2 ))) / ( ( v0 + 8.618955335825827 ) +tan( ( v0 + 8.618955335825827 ) )) ) ) 
+def func_1(v0,v1,v2,v3): return  ( ( v2 * ( 2.45527057493803 / ( 2.45527057493803 -sin( -13.792380179225434 )) ) ) -sin( (cos( v2 )/abs( ( ( 8.231971427472313 *abs( ( v2 * ( 2.45527057493803 / ( 2.45527057493803 -sin( -13.792380179225434 )) ) ) )) *sin( -13.792380179225434 )) )) )) 
+def func_2(v0,v1,v2,v3): return  ( (tan(sin( ( -0.4890717840384262 + v2 ) ))+ (exp( v1 )/ ( ( -19.421299570751657 * ( -0.4890717840384262 + v2 ) ) +sin( ( -0.4890717840384262 + v2 ) )) ) ) +cos( ( -0.4890717840384262 + v2 ) )) 
+def func_3(v0,v1,v2,v3): return  (sin( (tan( v2 )*abs( v2 )) )/cos( ( (abs( v2 )+sin( 13.116906134023495 )) - 13.116906134023495 ) )) 
+def func_4(v0,v1,v2,v3): return  (sin( ( ( v0 + 5.307027922133003 ) - 7.670738130514909 ) )+sin( ( -12.096273157455117 *tan( ( v0 + ( 5.307027922133003 / -12.096273157455117 ) ) )) )) 
+def func_5(v0,v1,v2,v3): return  ( v2 +sin(sin( ( ( v2 -tan(abs( v1 ))) / v0 ) ))) 
+def func_6(v0,v1,v2,v3): return tan(sin( ( ( ( -1.406251899221786 / (exp( ( v2 + v2 ) )- 15.827311617860076 ) ) + v2 ) - (cos( ( 7.155643996131037 - v2 ) )/ -1.406251899221786 ) ) ))
+def func_7(v0,v1,v2,v3): return  ( ( ( ( (cos( v1 )+sin( v2 )) + (sin( v1 )- ( v2 * v2 ) ) ) +exp( v0 )) / 10.511578563980105 ) + v2 ) 
+def func_8(v0,v1,v2,v3): return  ( (exp( ( v1 *exp( ( v2 + v2 ) )) )/ ( v2 + 5.0835419176501695 ) ) + v2 ) 
+def func_9(v0,v1,v2,v3): return  ( ( v2 + (cos( v0 )*sin( ( v2 - v0 ) )) ) + ( (cos( v2 )+cos( ( v2 - v0 ) )) *cos( v0 )) ) 
+def func_10(v0,v1,v2,v3): return sin( (sin( ( v1 / v2 ) )+ v2 ) )
+def func_11(v0,v1,v2,v3): return  ( v2 - ( (tan( (tan( 3.1657703446529126 )/sin( ( -13.932393396420753 - v1 ) )) )-cos( v2 )) +cos( v2 )) ) 
+def func_12(v0,v1,v2,v3): return  ( v2 +sin( (abs( ( v0 * (sin( 2.193603370811541 )+sin( 2.193603370811541 )) ) )+ ( v2 - ( v0 * (sin( 2.193603370811541 )+sin( 2.193603370811541 )) ) ) ) )) 
+def func_13(v0,v1,v2,v3): return  ( (sin( ( v2 + -18.166438623455065 ) )*sin( ( (sin( v1 )* (sin( v2 )+sin( v1 )) ) - (tan(tan( v2 ))-sin( v1 )) ) )) + v2 ) 
+def func_14(v0,v1,v2,v3): return  (sin( ( (cos( v2 )/ v0 ) / v0 ) )/ -2.6792813678912175 ) 
+def func_15(v0,v1,v2,v3): return  ( (cos( (abs(sin( v0 ))+ v0 ) )/exp( ( ( (sin( v2 )+sin( v0 )) - v0 ) + (abs(sin( v0 ))+ v0 ) ) )) +tan(sin( v2 ))) 
+def func_16(v0,v1,v2,v3): return  ( ( v2 / ( 13.789707441091814 - ( ( ( v2 * -1.2350533277658506 ) -tan( (exp( v2 )- v0 ) )) - (exp( v2 )- v0 ) ) ) ) * ( 13.789707441091814 - (exp( v2 )/ v2 ) ) ) 
+def func_17(v0,v1,v2,v3): return  ( ( v2 + ( ( -0.24848426424452086 / v2 ) / ( 4.690822976235726 /cos( ( v2 + ( -0.24848426424452086 / v2 ) ) )) ) ) + (cos( (cos( ( v2 + ( -0.24848426424452086 / v2 ) ) )- v2 ) )*exp( ( -0.24848426424452086 / v2 ) )) ) 
+def func_18(v0,v1,v2,v3): return  ( ( v2 * ( ( v2 * v2 ) - 12.012970360061026 ) ) / (tan( ( 11.7728353475303 /cos( v1 )) )+ -8.5922577668955 ) ) 
+def func_19(v0,v1,v2,v3): return  ( (sin(exp( v2 ))+ v2 ) /exp( ( (exp( v2 )/tan( (tan( 19.140031351398974 )- (exp( v2 )- v2 ) ) )) *sin( v1 )) )) 
+def func_20(v0,v1,v2,v3): return  (sin( (sin( -4.292538461773816 )* v1 ) )-cos( ( v1 * ( v0 * -10.702984513619494 ) ) )) 
+def func_21(v0,v1,v2,v3): return  ( v2 / (tan( -2.0120491510264955 )+tan( ( ( v1 + v1 ) * ( v1 + v1 ) ) )) ) 
+def func_22(v0,v1,v2,v3): return  ( v2 / (cos(tan( 0.6627747665384334 ))+ ( ( 0.6627747665384334 *sin( ( ( ( v2 + -6.891832869186182 ) * ( v2 +exp( v0 )) ) -tan( v2 )) )) +exp( v0 )) ) ) 
+def func_23(v0,v1,v2,v3): return  ( ( ( ( v0 + v0 ) - 19.1914201439821 ) *exp( ( 4.443801016638066 /abs( ( v2 +tan( -13.18581716405523 )) )) )) + ( (tan( -13.18581716405523 )+ ( v2 * v1 ) ) - ( ( ( v0 + v0 ) - 19.1914201439821 ) *exp( ( 4.443801016638066 /abs( ( v2 +tan( -13.18581716405523 )) )) )) ) ) 
+def func_24(v0,v1,v2,v3): return sin( ( (exp( ( ( v0 - v2 ) / ( v0 - v2 ) ) )- ( ( v0 - v2 ) / (exp( ( v0 - v2 ) )-abs( v0 )) ) ) +exp( ( ( v0 - v2 ) / ( v0 - v2 ) ) )) )
+def func_25(v0,v1,v2,v3): return  ( v2 + (sin( ( v2 + v2 ) )/ ( ( v1 * 15.285614601358859 ) /sin( 3.79363959744731 )) ) ) 
+def func_26(v0,v1,v2,v3): return  ( ( v2 -abs( v2 )) +cos(sin( (exp( v1 )+ -4.613343924937144 ) ))) 
+def func_27(v0,v1,v2,v3): return  ( ( v1 *exp( v2 )) / (tan(cos( ( ( v2 - -14.973048879714135 ) *exp( ( ( v2 - -14.973048879714135 ) * ( v0 * v0 ) ) )) ))- ( ( v0 + ( v0 * v0 ) ) - v2 ) ) ) 
+def func_28(v0,v1,v2,v3): return  (sin( ( v2 +abs( ( ( v1 * v0 ) *sin(abs( v1 ))) )) )- ( ( v1 * v0 ) *sin(abs( v1 ))) ) 
+def func_29(v0,v1,v2,v3): return  ( (sin( v2 )-sin( (cos( 7.9995032586199315 )/abs( v2 )) )) + (cos( 7.9995032586199315 )*sin( ( 7.9995032586199315 /abs( v2 )) )) ) 
+
+funcs = [func_0,func_1,func_2,func_3,func_4,func_5,func_6,func_7,func_8,func_9,func_10,func_11,func_12,func_13,func_14,func_15,func_16,func_17,func_18,func_19,func_20,func_21,func_22,func_23,func_24,func_25,func_26,func_27,func_28,func_29]
+
+def getFuncs(): return funcs

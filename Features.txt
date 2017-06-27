@@ -1,0 +1,15 @@
+Full Features:
+#v0 --- RESP
+#v1 --- PLETH
+#v2 --- ECG-II
+#v3 --- ECG-V
+#v4 --- AVR
+#v5 --- ABP
+#v6 --- ICP
+
+
+Less Features:
+#v0 --- PLETH
+#v1 --- ECG-V
+#v2 --- ABP
+#v3 --- ICP

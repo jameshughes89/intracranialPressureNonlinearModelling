@@ -1,0 +1,36 @@
+from math import *
+
+def func_0(v0,v1,v2,v3,v4,v5,v6): return  (sin( ( ( (abs(exp( v0 ))* -8.452600960917977 ) / ( ( ( -8.370353140292156 /abs(exp( v0 ))) -cos( -8.370353140292156 )) + (exp( v1 )*cos( v5 )) ) ) -exp( v0 )) )+sin( v5 )) 
+def func_1(v0,v1,v2,v3,v4,v5,v6): return  ( v5 +sin( ( ( v3 -abs(tan( ( (exp( ( 0.5957873417818078 + v5 ) )+ v4 ) / -7.420899513341759 ) ))) - v4 ) )) 
+def func_2(v0,v1,v2,v3,v4,v5,v6): return tan(sin( (sin( ( v5 - -19.437781716156294 ) )+sin( v5 )) ))
+def func_3(v0,v1,v2,v3,v4,v5,v6): return  ( ( ( v5 +tan( v5 )) +cos(cos( v0 ))) *cos( ( ( -1.246571669078417 - v1 ) /tan( ( -1.246571669078417 - v1 ) )) )) 
+def func_4(v0,v1,v2,v3,v4,v5,v6): return  ( v0 -cos( ( v3 * ( v1 /tan(tan( v5 ))) ) )) 
+def func_5(v0,v1,v2,v3,v4,v5,v6): return  (cos( ( -2.3998588955849307 * v0 ) )- ( ( ( v3 - -2.3998588955849307 ) *abs( v5 )) *exp( -2.3998588955849307 )) ) 
+def func_6(v0,v1,v2,v3,v4,v5,v6): return  ( ( (cos( ( ( v5 * v5 ) * ( v5 * v5 ) ) )/exp(cos( -6.887863292342811 ))) * (cos( v5 )+ v5 ) ) + v5 ) 
+def func_7(v0,v1,v2,v3,v4,v5,v6): return  ( v5 + ( ( ( v5 + v0 ) +cos( v3 )) * ( ( ( v5 / v5 ) / 5.934178739053742 ) *cos( v5 )) ) ) 
+def func_8(v0,v1,v2,v3,v4,v5,v6): return  ( v5 +abs(tan( (sin(tan( v2 ))*sin( (cos( v4 )+ v2 ) )) ))) 
+def func_9(v0,v1,v2,v3,v4,v5,v6): return  (tan( v5 )+exp( (tan( v5 )* v1 ) )) 
+def func_10(v0,v1,v2,v3,v4,v5,v6): return sin( ( v5 +sin(cos( ( ( ( v3 - v5 ) *cos( -6.904062914321942 )) + ( ( v3 - v5 ) *cos( -6.904062914321942 )) ) ))) )
+def func_11(v0,v1,v2,v3,v4,v5,v6): return  ( v5 - ( (cos( ( 13.919536527635913 / v5 ) )/ -15.377123265658188 ) /tan(tan( v0 ))) ) 
+def func_12(v0,v1,v2,v3,v4,v5,v6): return  ( (cos(abs( ( v1 * v5 ) ))* v5 ) -cos( (cos( ( v5 + ( v1 * v5 ) ) )/ v0 ) )) 
+def func_13(v0,v1,v2,v3,v4,v5,v6): return  ( v5 + ( v1 / (cos( ( -7.740938159918027 + ( -5.7879711333627615 / v1 ) ) )- ( v2 + ( -7.740938159918027 + ( -5.7879711333627615 / v1 ) ) ) ) ) ) 
+def func_14(v0,v1,v2,v3,v4,v5,v6): return tan( ( ( ( v0 /cos( -14.549686245998451 )) / ( 17.376522250241898 - ( (tan( v5 )/ v3 ) / v3 ) ) ) / v5 ) )
+def func_15(v0,v1,v2,v3,v4,v5,v6): return  (tan(cos( (sin(tan( v5 ))-cos( v5 )) ))-sin( v1 )) 
+def func_16(v0,v1,v2,v3,v4,v5,v6): return sin( (sin( v5 )+ ( -6.571720248679128 - ( v3 / ( 10.176440116785098 * v0 ) ) ) ) )
+def func_17(v0,v1,v2,v3,v4,v5,v6): return  (sin(tan(sin( v5 )))+ (tan(sin( v5 ))+cos(exp(sin( v5 )))) ) 
+def func_18(v0,v1,v2,v3,v4,v5,v6): return cos( ( (tan( ( 3.465530209001013 + -0.9175428940500332 ) )+ v0 ) /exp( v5 )) )
+def func_19(v0,v1,v2,v3,v4,v5,v6): return  ( ( (cos( ( v5 * -1.0919922941422122 ) )+ v5 ) *cos( ( ( v5 * -1.0919922941422122 ) - ( v5 * -1.0919922941422122 ) ) )) - ( ( v5 - -1.0919922941422122 ) * ( v4 / -2.254676784814503 ) ) ) 
+def func_20(v0,v1,v2,v3,v4,v5,v6): return sin( (tan( ( 13.955151014401956 - v0 ) )- ( v2 / ( (tan(tan( ( 13.955151014401956 - v0 ) ))* ( ( v0 * ( 13.955151014401956 - v0 ) ) /tan( ( 13.955151014401956 - v0 ) )) ) -tan( ( 13.955151014401956 - v0 ) )) ) ) )
+def func_21(v0,v1,v2,v3,v4,v5,v6): return  ( ( ( v5 /exp(exp( ( v0 * v0 ) ))) + (sin(exp( ( v0 * v0 ) ))/exp( ( v0 * v0 ) )) ) * v0 ) 
+def func_22(v0,v1,v2,v3,v4,v5,v6): return  ( (cos(sin( ( 7.315762428465092 / v1 ) ))* v5 ) * ( ( v5 + ( v5 + 7.315762428465092 ) ) / 7.315762428465092 ) ) 
+def func_23(v0,v1,v2,v3,v4,v5,v6): return  ( ( v5 / (abs( v5 )+exp( v2 )) ) -abs(cos( ( v2 +exp( v5 )) ))) 
+def func_24(v0,v1,v2,v3,v4,v5,v6): return cos( ( (sin( ( v1 * v4 ) )+ v5 ) + -1.8107373122492767 ) )
+def func_25(v0,v1,v2,v3,v4,v5,v6): return  ( ( v5 + ( (sin( (sin(sin( -18.23705324735284 ))/sin( v5 )) )* (sin(sin( -18.23705324735284 ))/sin( v5 )) ) / -3.8151637988222795 ) ) *cos( v0 )) 
+def func_26(v0,v1,v2,v3,v4,v5,v6): return  ( ( v5 +sin( v1 )) *cos( (sin( v1 )* ( v1 / ( ( ( v1 / v2 ) / v1 ) -cos( v0 )) ) ) )) 
+def func_27(v0,v1,v2,v3,v4,v5,v6): return  (exp( v5 )*sin( (sin( v4 )/ ( ( v5 - v3 ) * ( v5 - v3 ) ) ) )) 
+def func_28(v0,v1,v2,v3,v4,v5,v6): return tan( (cos( ( ( v4 /sin( v5 )) - v5 ) )* v3 ) )
+def func_29(v0,v1,v2,v3,v4,v5,v6): return  ( v5 -sin( ( v0 /cos(cos(exp( -18.415527012598062 )))) )) 
+
+funcs = [func_0,func_1,func_2,func_3,func_4,func_5,func_6,func_7,func_8,func_9,func_10,func_11,func_12,func_13,func_14,func_15,func_16,func_17,func_18,func_19,func_20,func_21,func_22,func_23,func_24,func_25,func_26,func_27,func_28,func_29]
+
+def getFuncs(): return funcs
