@@ -93,6 +93,7 @@ public class Centre
 		//theData = Reader.readData("../../../../WCCI2015/Walking/DATA/", "CH-FR-LACC-RAW-RM-5hz-1000-15000.csv");
 		//theData = Reader.readData("../roiData/", "MOTOR_100307_3_L33.csv");
 		//theData = Reader.readData("../roiDATA/", "MOTOR_100307_2_L21_Z.csv");		//CHANGE THE PREDICTOR SIZE IF USING THIS!!!
+System.out.println("../../PNdata/" + args[0]+".csv");
 		theData = Reader.readData("../../PNdata/", args[0]+".csv");		
 		Language.setVarSymbolsNumbers(theData[0].length - 1);
 		//Language.setVarSymbols(Reader.readVarNames("./", "variableNames2.csv"));

@@ -11,6 +11,6 @@ for s in range(0,1):
 			for i in range(0, 50, 1):
 				#MIND THE TASK AND L VALUE HERE!!!!
 				oFile.write('echo ' + str(st) + '-' + tke + 'groupData ' +str(i)+ ' 1 ' + str(s) +'\n')
-				oFile.write('java Centre ' + str(st) + '-' + tke + ' ' +str(i)+ ' 1 ' + str(s) +'\n')
+				oFile.write('java Centre ' + str(st) + '-' + tke + 'groupData ' +str(i)+ ' 1 ' + str(s) +'\n')
 		oFile.close()
 
